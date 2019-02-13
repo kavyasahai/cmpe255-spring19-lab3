@@ -46,7 +46,7 @@ def train_then_build_model(data_labels, features_nd,data):
     # TODO
     for i in range(10):
         ind = features_nd.tolist().index(X_test[i].tolist())
-        print(y_pred[i],data[ind])
+        print("::%s::%s"%(y_pred[i],data[ind]))
 
 
     # print accuracy
